@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="icon" href="style/images/favicon.ico">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<title></title>
