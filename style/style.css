@@ -1,0 +1,28 @@
+.filesystem{
+	font-family: Corbel;
+	text-align: center;
+}
+
+.filesystem img{
+	width: 50;
+}
+
+
+.imagebox{
+	position: relative;
+    display: inline-block;
+}
+
+.imagebox .imagetext{
+	position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+}
+
+.imagetext{
+    text-align: center;
+    width: 60%;
+}
