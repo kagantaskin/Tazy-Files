@@ -4,13 +4,14 @@
 	<link rel="icon" href="style/images/favicon.ico">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
-	<title></title>
+	<title>Tazy Files</title>
 </head>
 <body>
 
 
 	<div class="formInput">
 		<form method="POST">
+			<p>Login</p>
 			<input type="text" name="uLoginName" placeholder="Username">
 			<input type="password" name="uLoginPass" placeholder="password">
 			<input type="submit" name="uLogin" value="Login">
@@ -49,7 +50,7 @@
 
 		}else{
 
-			echo "basarisiz";
+			echo "Can't Logged In.";
 
 		}
 	}
@@ -58,6 +59,7 @@
 	?>
 
 	<form method="POST">
+		<p>Register</p>
 		<input type="text" name="uRegisterName" placeholder="Username">
 		<input type="text" name="uRegisterFullName" placeholder="Full Name">
 		<input type="password" name="uRegisterPass" placeholder="Password">

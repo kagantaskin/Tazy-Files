@@ -58,11 +58,13 @@ function uploadFiles(){
 
 			fileImage();
 
-			echo "Dosya başarıyla yüklendi.\n";
-			echo "Dosya Adı : " . $_FILES['fileToUpload']['name'] . "\n";
-			echo "Dosya Tipi : " . $_FILES['fileToUpload']['type'] . "\n";
-			echo "Dosya Boyutu : " . ($_FILES['fileToUpload']['size'] / 1024) . " Kb\n";
+			echo "File Uploaded Succesfully.\n";
+			echo "File Name : " . $_FILES['fileToUpload']['name'] . "\n";
+			echo "File Type : " . $_FILES['fileToUpload']['type'] . "\n";
+			echo "File Size : " . ($_FILES['fileToUpload']['size'] / 1024) . " Kb\n";
+			echo "<a href=". $uploadLocation . $_FILES['fileToUpload']['name']. ">Go To File</a>";
 			echo "</div>";
+
 
 
 

@@ -40,7 +40,7 @@
 </head>
 <body>
 
-	<center><a href="homepage.php">Ana Sayfa</a></center>
+	<center><a href="homepage.php">Go Back</a></center>
 
 </body>
 </html>
