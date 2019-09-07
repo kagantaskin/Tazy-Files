@@ -29,11 +29,12 @@
 
 		<div class="userFirstButtons">
 			<form method="POST">
-						<input style="width: 50%;" type="text" name="uLoginName" placeholder="Username"><br>
-						<input style="width: 50%;" type="password" name="uLoginPass" placeholder="Password" ><br>
-						<input style="width: 50%;" type="submit" name="uLogin" value="Login"><br>
-						<a href="register.php">Create an Account!</font></a>
-						<a href="">Forgot your password?</font></a>
+						<input style="width: 50%;" type="text" name="uRegisterName" placeholder="Username"><br>
+						<input style="width: 50%;" type="text" name="uRegisterFullName" placeholder="Full Name" ><br>
+						<input style="width: 50%;" type="email" name="uRegisterEMail" placeholder="E-mail" ><br>
+						<input style="width: 50%;" type="password" name="uRegisterPass" placeholder="Password" ><br>
+						<input style="width: 50%;" type="submit" name="uRegister" value="Register"><br>
+						<a style="text-decoration: none;" href="index.php">Already have an Account? Sign In.</font></a>
 			</form>
 		</div>
 	</div>

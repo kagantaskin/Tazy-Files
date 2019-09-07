@@ -2,6 +2,8 @@
 
 <?php
 
+session_start();
+
 	include 'functions.php';
 	require 'db_connection.php';
 

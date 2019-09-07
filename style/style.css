@@ -26,3 +26,241 @@
     text-align: center;
     width: 60%;
 }
+
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    font-family: Corbel;
+}
+
+.header li{
+    float: left;
+    margin-left: 47.5%;
+}
+
+.header img{
+    padding: 10px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    border-bottom: 3px inset #F7AA35;
+    overflow: hidden;
+}
+
+.header .welcomeName{
+    float: right;
+    margin: 1.2% 1%;
+    font-family: Corbel;
+    border-left: inset white;
+    color: white;
+    border-left-width: thick;
+    padding: 10px 10px;
+}
+
+.userProfileButtons{
+    margin-top: 1.5%;
+}
+
+.userProfileButtons a{
+    width: 10%;
+    background-color: #F7AA35;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.userProfileButtons a:hover{
+    background-color: #F7AA35;
+    color: white;
+}
+
+.userFirstButtons{
+    margin-top: 6%;
+    text-align: center;
+}
+
+.userFirstButtons input[type='text'], input[type='password'], input[type='email']{
+    width: 8%;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #F7AA35;
+    padding: 10px 10px;
+    margin: 5px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.userFirstButtons input[type='submit']{
+    font-family: Corbel;
+    width: 8%;
+    background-color: #F7AA35;
+    border-radius: 7px;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.userFirstButtons input[type='submit']:hover{
+    background-color: #F7AA35;
+    color: white;
+}
+
+.userFirstButtons a{
+    font-family: Corbel;
+    width: 30%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: black;
+    text-decoration: none;
+    border: 1.5px outset #F7AA35;
+    font-size: 12px;
+    display: inline-block;
+    background-color: #F7AA35
+}
+
+.userFirstButtons a:hover{
+    color: white;
+}
+
+.formInput input[type=submit]{
+    font-family: Corbel;
+    background-color: #F7AA35;
+    border-radius: 7px;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.formInput input[type=submit]:hover{
+    background-color: #F7AA35;
+    color: white;
+}
+
+table.db-table{
+    width: 700px;
+    text-align: center;
+    border-right:1px solid #000;
+    border-bottom:1px solid #000;
+}
+
+table.db-table th{
+    background:#000;
+    color: white;
+    padding:10px;
+    border-left:1px solid #000;
+    border-top:1px solid #000;
+}
+
+table.db-table td{
+    padding:10px;
+    border-left:1px solid #000;
+    border-top:1px solid #000;
+}
+
+table.db-table tr:hover{
+    background-color: #F7AA35;
+    cursor: pointer;
+}
+
+#container{
+    margin-top: 6%;
+    background-color: #F3f3f3;
+    height: 550px;
+    width: 500px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+
+}
+
+#LoginHeader{
+    height: 175px;
+    width: 980px;
+    float: center;
+}
+
+#logo{
+    height: 30px;
+    width: 980px;
+    float: center;
+    margin-left: -640px;
+}
+
+#container #LoginHeader ul{
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0;
+    margin-bottom: 0px;
+}
+
+#container #LoginHeader ul{
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0;
+    margin-bottom: 0px;
+}
+
+#container #LoginHeader ul li a{
+    display: block;
+    float: left;
+    height: 50px;
+    width: 150px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    line-height: 3px;
+    margin-left: 3px;
+}
+
+#container #LoginHeader #menu ul li a:hover{
+    display: block;
+    float: left;
+    height: 50px;
+    width: 110px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 3px;
+    margin-left: 3px;
+}
+
+#loginraid{
+    font-family: Corbel;
+    text-align: center;
+    color: black;
+    height: 10px;
+    width: 35px;
+    margin-left: -150px;
+}

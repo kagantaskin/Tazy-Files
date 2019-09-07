@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="icon" href="style/images/favicon.ico">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
-	<title></title>
+	<title>Tazy Files</title>
 </head>
 <body>
 
+	<?php include 'header.php'; ?>
 
-	<div style="font-family: Corbel" class="formInput">
-		<form action="upload.php" method="POST"  enctype="multipart/form-data">
-			<span> Welcome, <?php session_start(); echo $_SESSION['uNameSession']; ?></span> <br>
-			<span>Your file name is <?php echo $_SESSION['uFileNameSession']; ?></span><br>
+	<center>
+	<div style="font-family: Corbel; margin-top: 7%;" class="formInput">
+		<span>Your file name is <?php echo $_SESSION['uFileNameSession']; ?></span><br>
+
+		<div class="userProfileButtons">
+			<a href="#">User Settings</a>
+			<a href="logout.php">Logout</a>
+		</div>
+
+		<form style="margin-top: 1.5%;" action="upload.php" method="POST"  enctype="multipart/form-data">
+			<div style="border-bottom: 1px solid black; width: 350px;">
 			<input type="hidden" name="MAX_FILE_SIZE" value="1000000">
 			<input type="file" name="fileToUpload" id="fileToUpload">
 			<input type="submit" name="submitFile" value="Upload">
+			</div>
 		</form>
 
-		<a href="logout.php">Logout</a>
 
 	</div>
 
 	<?php
 
-		$fileOwner = $_SESSION['uFileNameSession'];
+		include 'functions.php';
 
-		require 'db_connection.php';
-
-		$selectFiles = "SELECT * FROM userfiles WHERE fileOwner = '".$fileOwner."'";
-
-		$checkFiles = mysqli_query($con, $selectFiles);
-
-		$resultCheck = mysqli_num_rows($checkFiles);
-
-		if ($resultCheck > 0) {
-				echo "<div style='font-family: Corbel'>";
-				echo "<br>";
-				echo "Your Files Listed Here";
-				echo "<br>";
-			while ($row = mysqli_fetch_assoc($checkFiles)) {
-				echo "File Name: " . $row['fileName'] . " | File Type: " . $row['fileType'] . " | File Size: " . $row['fileSize'] . "<br>";
-			}
-			echo "</div>";
-		}
+		dataToTables();
 
 	?>
 
+</center>
+
 </body>
 </html>
+
