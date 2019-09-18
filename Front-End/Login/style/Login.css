@@ -1,0 +1,71 @@
+@charset "utf-8";
+body{
+	backgroud-repeat: repeat;
+}
+
+#container{
+	margin-top: 6%;
+	background-color: #F3f3f3;
+	height: 550px;
+	width: 500px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+#header{
+	height: 175px;
+	width: 980px;
+	float: center;
+}
+
+#logo{
+	height: 30px;
+	width: 980px;
+	float: center;
+	margin-left: -640px;
+}
+
+#container #header ul{
+	padding: 0px;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0;
+	margin-bottom: 0px;
+}
+
+#container #header ul li a{
+	display: block;
+	float: left;
+	height: 50px;
+	width: 150px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	line-height: 3px;
+	margin-left: 3px;
+}
+
+#container #header #menu ul li a:hover{
+	display: block;
+	float: left;
+	height: 50px;
+	width: 110px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	line-height: 3px;
+	margin-left: 3px;
+}
+
+#loginraid{
+    font-family: Corbel;
+    text-align: center;
+    color: black;
+    height: 10px;
+    width: 35px;
+    margin-left: -150px;
+}

@@ -6,13 +6,13 @@
 </head>
 <body>
 
-	<div class="header">
-		<ul>
-			<li class="welcomeName"><?php session_start(); echo $_SESSION['uNameSession'];?></li>
-			<li><img src="uploads/gangstazy/TazyFiles.png"></li>
-		</ul>
+	<header>
 
-	</div>
+		<div class="header">
+			<ul>
+				<li class="welcomeName"><?php session_start(); echo $_SESSION['uNameSession'];?></li>
+				<li><img src="uploads/gangstazy/TazyFiles.png"></li>
+			</ul>
+		</div>
 
-</body>
-</html>
+	</header>

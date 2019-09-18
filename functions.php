@@ -26,6 +26,7 @@ function userLogin(){
 		$countResult = mysqli_num_rows($checkResult);
 
 		if ($countResult == 1) {
+			
 			while ($row = mysqli_fetch_assoc($checkResult)) {
 
 			$_SESSION['uNameSession'] = $row['name'];
@@ -36,6 +37,7 @@ function userLogin(){
 			}
 
 		}else{
+
 			echo "Can't Logged In.";
 
 		}
